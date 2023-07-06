@@ -1,0 +1,4 @@
+include:
+  - project: "bayada/ci-cd-templates/container-builder"
+    file: ".gitlab/templates/kaniko.gitlab-ci.yml"
+    ref: "main"
